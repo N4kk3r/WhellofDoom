@@ -1,0 +1,46 @@
+/*CON ESTA URL IMPORTAMOS LA FUENTE DE LA PAGINA DE GOOGLEFONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+#cuerpo{
+
+    font-family: 'Press Start 2P', cursive;
+    display: grid;
+    justify-content: center;
+    background-color: gray;
+    
+}
+
+#futurosmuertos{
+
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    justify-content: center;
+    grid-gap: 25px 25px;
+    
+}
+
+
+#futurosmuertos img{
+    width: 80px;
+    height: 90px;
+    padding: 5px;
+}
+
+#boton{
+
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+#mensajes{
+    
+    display: grid;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+
+
